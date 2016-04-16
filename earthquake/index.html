@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+	<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+	<script src="rx.all.js"></script>
+	<script src="rx.dom.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+			height: 100%;
+		}
+		#map {
+			width: 70%;
+			height: 500px;
+		}
+	</style>
+</head>
+<body>
+	<div id="map"></div>
+	<div id="post"></div>
+	<table>
+		<thead>
+			<tr>
+				<td>Location</td>
+				<td>Magnitude</td>
+				<td>Time</td>
+			</tr>
+		</thead>
+		<tbody id="quakes-info"></tbody>
+	</table>
+	<script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "earthquick",
+  "version": "1.0.0",
+  "description": "rxjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rxjs"
+  ],
+  "author": "jocs",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "live-server": "^0.9.2",
+    "rx": "^4.1.0",
+    "rx-dom": "^7.0.3",
+    "socket.io": "^1.4.5",
+    "twit": "^2.2.3"
+  }
+}
